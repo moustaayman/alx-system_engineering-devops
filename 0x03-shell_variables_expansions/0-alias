@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "alias ls='echo total 0'" | tee -a ~/.bashrc > /dev/null && source ~/.bashrc
+echo "alias ls='echo \"Alias ls has been set. Use \\\ls to bypass.\"'" >> ~/.bashrc | source ~/.bashrc
